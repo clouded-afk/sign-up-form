@@ -80,8 +80,14 @@ a:visited {
 }
 
 h2 {
-    margin-bottom: 15px;
     margin-left: 40px;
+}
+
+.required-fields {
+    font-size: 12px;
+    margin-left: 40px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
 }
 
 .form-section {
@@ -120,12 +126,12 @@ input {
 }
 
 input:focus {
-    outline: none;
-    border: 1px solid rgb(66, 135, 245);
+    outline: 1px solid rgb(66, 135, 245);
+    box-shadow: 2px 4px 2px -2px gray;
 }
 
 #password:invalid, #confirm-password:invalid, #e-mail:invalid:focus, #phone-number:invalid:focus{
-    border: 1px solid red;
+    outline: 1px solid red;
 }
 
 .bottom-section {
