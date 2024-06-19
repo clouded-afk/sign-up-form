@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .bebas-neue-regular {
@@ -21,7 +22,7 @@ html, body {
 }
 
 .left-section {
-    width: 33%;
+    width: 34%;
     background-image: url(images/shibuya.jpg);
     background-position: center center;
     background-size: cover;
@@ -31,7 +32,7 @@ html, body {
 }
 
 .right-section {
-    width: 67%;
+    width: 66%;
 }
 
 .logo {
@@ -42,10 +43,12 @@ html, body {
     gap: 25px;
     height: 12.5%;
     width: 100%;
-    margin-top: 200px;
+    margin-top: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.koi-drift {
+.logo-text {
     color: white;
     font-family: "Bebas Neue", sans-serif;
     font-size: 60px;
@@ -65,4 +68,98 @@ img {
 
 a:visited {
     color: white;
+}
+
+.page-information {
+    padding-top: 175px;
+    padding-bottom: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 800px;
+    margin-left: 40px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+.form-section {
+    display: flex;
+    width: 100%;
+    padding-bottom: 25px;
+    box-shadow: 0 4px 2px -2px lightgray;
+    margin-left: 0;
+}
+
+.input-container {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 40px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+label {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 90%);
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid rgb(66, 135, 245);
+}
+
+#password:invalid, #confirm-password:invalid, #e-mail:invalid:focus, #phone-number:invalid:focus{
+    border: 1px solid red;
+}
+
+.bottom-section {
+    margin-top: 50px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: brown;
+    border: none;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+button:hover {
+    background-color: hsl(0, 59.42%, 50.59%);
+}
+
+button:active {
+    background-color: hsl(0, 59.42%, 60.59%);
+}
+
+.already-registered {
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.log-in, .log-in:visited {
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
 }
