@@ -129,7 +129,8 @@ input:focus {
 }
 
 .bottom-section {
-    margin-top: 50px;
+    margin-top: 100px;
+    position: absolute;
 }
 
 button {
@@ -145,7 +146,7 @@ button {
     margin-left: 40px;
 }
 
-button:hover {
+button:hover, button:focus {
     background-color: hsl(0, 59.42%, 50.59%);
 }
 
