@@ -28,17 +28,18 @@
             <div class="form-section">
                 <form action="" method="">
                     <h2>Let's do this!</h2>
+                    <p class="required-fields">* = Required Fields</p>
                     <div class="input-container">
                         <div class="form-row">
-                            <label for="first-name">FIRST NAME</label>
+                            <label for="first-name">FIRST NAME<span aria-label="required">*</span></label>
                             <input type="text" name="first-name" id="first-name" required>
                         </div>
                         <div class="form-row">
-                            <label for="last-name">LAST NAME</label>
+                            <label for="last-name">LAST NAME<span aria-label="required">*</span></label>
                             <input type="text" name="last-name" id="last-name" required>
                         </div>
                         <div class="form-row">
-                            <label for="e-mail">EMAIL</label>
+                            <label for="e-mail">EMAIL<span aria-label="required">*</span></label>
                             <input type="email" name="e-mail" id="e-mail" placeholder="email@example.com" required>
                         </div>
                         <div class="form-row">
@@ -46,11 +47,11 @@
                             <input type="tel" name="phone-number" id="phone-number" placeholder="999-999-9999" pattern="\d{3}-\d{3}-\d{4}">
                         </div>
                         <div class="form-row">
-                            <label for="password">PASSWORD</label>
+                            <label for="password">PASSWORD<span aria-label="required">*</span></label>
                             <input type="password" name="password" id="password" required>
                         </div>
                         <div class="form-row">
-                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <label for="confirm-password">CONFIRM PASSWORD<span aria-label="required">*</span></label>
                             <input type="password" name="confirm-password" id="confirm-password" required>
                         </div>
                     </div>
